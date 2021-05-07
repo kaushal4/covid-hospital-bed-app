@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 0 1.5em 0 1.5em;
+  height: fit-content;
+  box-shadow: 0 5px 10px hsl(54, 41%, 53%);
+  align-items: center;
+  .translator {
+    flex-grow: 1;
+
+    #google_translate_element {
+      float: right;
+      transform: translateX(-30%);
+    }
+  }
+
+  a {
+    color: black;
+    height: 1rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+  }
+}
