@@ -13,7 +13,7 @@ class covid_test(Resource):
         parser = reqparse.RequestParser()
         parser.add_argument('age', type=int, help='age must be numeric')
         parser.add_argument('temprature', type=int,
-                            help='Rate cannot be converted')
+                            help='temprature must be numeric')
         parser.add_argument(
             'sex', type=int, help='bad input:{error_msg}', choices=(0, 1))
         parser.add_argument('diarrhea', type=int,
@@ -32,8 +32,8 @@ class covid_test(Resource):
                             help='bad input:{error_msg}', choices=(0, 1))
         parser.add_argument('diabetes', type=int,
                             help='bad input:{error_msg}', choices=(0, 1))
-        # args = parser.parse_args()
-        # print(args)
+        args = parser.parse_args()
+        print(args)
 
         return {
             'resultStatus': 'fine',

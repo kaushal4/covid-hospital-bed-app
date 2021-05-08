@@ -1,4 +1,8 @@
 .navbar {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  top: 0;
   display: flex;
   width: 100%;
   padding: 0 1.5em 0 1.5em;
@@ -9,15 +13,83 @@
     flex-grow: 1;
 
     #google_translate_element {
+      padding: 1rem 1rem;
       float: right;
       transform: translateX(-30%);
     }
   }
 
-  a {
+  > a {
     color: black;
     height: 1rem;
     padding: 1rem 1rem;
+    margin: 0 0.2rem;
     text-decoration: none;
+    &:hover {
+      background-color: hsl(55, 66%, 77%);
+      transition: background-color 0.5s ease;
+    }
+  }
+  .nav-toggler {
+    display: none;
+    transform-origin: center;
+    cursor: pointer;
+  }
+  .page-symbol {
+    margin: 0 0.2rem;
+  }
+  @media screen and (max-width: 700px) {
+    .page-symbol {
+      padding: 0.5rem 1rem;
+    }
+    padding: 0;
+    > a {
+      width: 100%;
+      &:hover {
+        background-color: whitesmoke;
+        transition: background-color 0.5s ease;
+      }
+    }
+    position: fixed;
+    //clip-path: circle(5% at 5px 10px);
+    svg {
+      margin: 1rem;
+    }
+    .nav-toggler {
+      display: inline-block;
+      position: absolute;
+      align-self: flex-end;
+      transform: translateX(-100%);
+    }
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    flex-direction: column;
+    .translator {
+      flex-grow: 1;
+
+      #google_translate_element {
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+.flipAnimationRight {
+  animation: flip_right 0.5s linear;
+}
+.flipAnimationLeft {
+  animation: flip_right 0.5s linear reverse;
+}
+@keyframes flip_right {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(0.4) rotate(45deg);
+  }
+  100% {
+    transform: scale(1) rotate(90deg);
   }
 }
