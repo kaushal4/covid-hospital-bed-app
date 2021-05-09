@@ -10,6 +10,7 @@ const Bed = ()=>{
     const [secondTablesLoaded,setsecondTablesLoaded] = useState(false);
     const [addressValue,setAddressValue] = useState("");
     const [isInputInvalid,setInputInvalid] = useState(false);
+    const [serverResponse,setServerResponse] = useState([]);
     useEffect(()=>{
         console.log("here");
         axios.get("http://localhost:5000/bed",{params:{"top":"false","count":"true"}})
@@ -36,15 +37,15 @@ const Bed = ()=>{
         e.preventDefault();
         axios.get(`https://api.opencagedata.com/geocode/v1/json?key=${process.env.REACT_APP_LOCATION_API}&q=${addressValue}+Delhi`)
         .then((data)=>{
-            console.log(data.data);
-            console.log(data.data.results[0].geometry);
-            console.log(data.data.results[0].geometry.lat);
-            console.log(data.data.results[0].geometry.lng);
+            console.log(data.data.results[0]);
             if(data.data.results[0].geometry.lat===28.65381 && data.data.results[0].geometry.lng===77.22897){
                 setInputInvalid(true);
             }else{
                 axios.get("http://localhost:5000/distance",{params:{"lat":data.data.results[0].geometry.lat,"lan":data.data.results[0].geometry.lng}})
-                .then(data=>{console.log(data)})
+                .then(data=>{
+                    setServerResponse([data.data.c,data.data.val]);
+                    console.log([data.data.c,data.data.val]);
+                })
             }
         });
 
@@ -128,6 +129,43 @@ const Bed = ()=>{
             )
         }
     }
+    const getThirdTableBody = ()=>{
+        let body = ""
+        if((serverResponse).length !== 0){
+            body = []
+            for(let i=0;i<5;i++){
+                body.push((<tr key={i}> 
+                            <td>{serverResponse[0][i]}</td>
+                            <td>{serverResponse[1][i]}</td>
+                     </tr>))
+            
+            }
+
+        }
+        
+        return (<tbody>{body}</tbody>)
+    }
+    const getTableThreeData = ()=>{
+        if(serverResponse.length == 0){
+            return "";
+        }
+        else{
+            return(
+                <div>
+                        <h3>Top 5 nearest hospital to your place</h3>
+                        <table className="table-three">
+                        <thead>
+                            <tr>
+                                <th>Hospital Name</th>
+                                <th>Vacant Beds</th>
+                            </tr>
+                        </thead>
+                        {getThirdTableBody()}
+                    </table>
+                </div>
+            )
+        }
+    }
     return(
         <div className="bed-container" id="locationStatus">
             <div className="count">
@@ -144,7 +182,11 @@ const Bed = ()=>{
                     <button className="btn btn-5">submit!</button>
                 </form>
                 <p dtyle={{"color":"red"}}>{isInputInvalid && "The location could not be found. Only Delhi Locations supported .Please try again"}</p>
+                <div className="table-three">
+                {getTableThreeData()}
             </div>
+            </div>
+            
         </div>
     )
 }

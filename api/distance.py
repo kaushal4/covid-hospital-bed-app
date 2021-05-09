@@ -86,16 +86,24 @@ class distance(Resource):
         p = bedDetail['Vacant_Beds']
         res = {}
         p1 = p.values.tolist()
+        res = {}
+        s1 = ""
         for key in l:
             for value in p1:
-                res[key] = value
+                s1 = key.strip()
+                s1 = s1.strip()
+                res[s1] = value
                 p1.remove(value)
                 break
+
         c = []
-        print(best5List)
+        s = ""
         for i in range(5):
-            c.append(best5List[i][0])
+            s = best5List[i][0].strip()
+            c.append(s)
+
         val = []
+        print(res)
         for i in range(5):
             if(res[c[i]]):
                 val.append(res[best5List[i][0]])
