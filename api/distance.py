@@ -5,22 +5,17 @@ import pandas as pd
 class distance(Resource):
     def get(self):
         parser = reqparse.RequestParser()
-        parser.add_argument('position',
+        parser.add_argument('lat',
+                            help='count must be a boolean value')
+        parser.add_argument('lan',
                             help='count must be a boolean value')
         args = parser.parse_args()
-        [latInput, lonInput] = args.position
+        latFin = args.lat
+        lonFin = args.lan
 
-        def convertTodeg(lat, lon):
-            latfin = float(lat.split(' ')[
-                           0][1:-1]) + float(lat.split(' ')[1][:-1])/60 + float(lat.split(' ')[2][:-2])/3600
-            lonfin = float(lon.split(' ')[
-                           0][1:-1]) + float(lon.split(' ')[1][:-1])/60 + float(lon.split(' ')[2][:-2])/3600
-            return latfin, lonfin
-
-        latFin = convertTodeg(latInput, lonInput)[0]
-        lonFin = convertTodeg(latInput, lonInput)[1]
         df = pd.read_csv("api\\bed_informations\\Hospital_Lat_Long.csv")
-        df.columns = ['ID', 'Hospital Name', 'Latitude', 'Longitude']
+        df.columns = ['Hospital Name', 'Latitude', 'Longitude']
+        df.dropna(axis=0, inplace=True)
         hospName = df['Hospital Name'].values.tolist()
         latitude = df['Hospital Name'].to_numpy()
         longitude = df['Hospital Name'].to_numpy()
@@ -35,9 +30,7 @@ class distance(Resource):
                 res[key] = value
                 a.remove(value)
                 break
-        val = res['Avanitka Hospital']
-        lat_hosp = float(str(val).split(',')[0][1:-1])
-        lon_hosp = float(str(val).split(',')[1][1:-1])
+
         from math import radians, cos, sin, asin, sqrt
 
         def distance(lat1, lat2, lon1, lon2):
@@ -61,7 +54,56 @@ class distance(Resource):
 
             # calculate the result
             return(c * r)
+        dist = []
+        for i in range(len(list(res.values()))):
+            val = list(res.values())[i]
+            lat_hosp = float(str(val[0])[:-1])
+            lon_hosp = float(str(val[1])[:-1])
+            lat1 = float(latFin)
+            lat2 = lat_hosp
+            lon1 = float(lonFin)
+            lon2 = lon_hosp
+            dist.append([list(res.keys())[i], str(
+                distance(lat1, lat2, lon1, lon2))])
+        df = pd.DataFrame(dist)
+        df.columns = ["Name", "Distance"]
+        finList = df.sort_values('Distance').values.tolist()
+        print(finList)
+        best5List = finList[0:5]
+        df.columns = ["Name", "Distance"]
+        finList = df.sort_values('Distance').values.tolist()
+        bedDetail = pd.read_csv(
+            'api\\bed_informations\\DelhiData_1.csv', header=None)
+        bedDetail.columns = ['Hospital', 'Time_stamp',
+                             'Total_Beds', 'Vacant_Beds', 'Contact', 'O2_left']
+        bedDetail = bedDetail.drop(['Contact'], axis=1)
+        bedDetail.dropna(axis=0, inplace=True)
+        bedDetail = bedDetail.drop(
+            ['Time_stamp', 'Total_Beds', 'O2_left'], axis=1)
+        l = []
+        l = bedDetail['Hospital']
+        p = []
+        p = bedDetail['Vacant_Beds']
+        res = {}
+        p1 = p.values.tolist()
+        for key in l:
+            for value in p1:
+                res[key] = value
+                p1.remove(value)
+                break
+        c = []
+        print(best5List)
+        for i in range(5):
+            c.append(best5List[i][0])
+        val = []
+        for i in range(5):
+            if(res[c[i]]):
+                val.append(res[best5List[i][0]])
+            else:
+                val.append(0)
         return {
             'resultStatus': 'SUCCESS',
-            'message': "Hello Api Handler"
+            'message': "Hello Api Handler",
+            "val": val,
+            "c": c,
         }

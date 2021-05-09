@@ -10,63 +10,63 @@ import time
 
 class bed_info(Resource):
     # def __init__(self):
-    # url = "https://coronabeds.jantasamvad.org/"
-    # driver = webdriver.Chrome(r"api/selenium/chromedriver")
-    # driver.get(url)
-    # time.sleep(5)
-    # html = driver.page_source
-    # driver.close()
-    # soup = bs(html, 'html.parser')
-    # filename = 'api\\bed_informations\\DelhiBedData.csv'
-    # f = open(filename, 'w', encoding="utf-8")
-    # csv_writer = csv.writer(f)
+    #     url = "https://coronabeds.jantasamvad.org/"
+    #     driver = webdriver.Chrome(r"api/selenium/chromedriver")
+    #     driver.get(url)
+    #     time.sleep(5)
+    #     html = driver.page_source
+    #     driver.close()
+    #     soup = bs(html, 'html.parser')
+    #     filename = 'api\\bed_informations\\DelhiBedData.csv'
+    #     f = open(filename, 'w', encoding="utf-8")
+    #     csv_writer = csv.writer(f)
 
-    # data = []
-    # for i in soup.find_all('p', {"class": "card-text"}):
-    #     data.append(i.get_text())
-    # if(data):
-    #     csv_writer.writerow(data)
-    # f.close()
-    # url = "https://coronabeds.jantasamvad.org/beds.html"
+    #     data = []
+    #     for i in soup.find_all('p', {"class": "card-text"}):
+    #         data.append(i.get_text())
+    #     if(data):
+    #         csv_writer.writerow(data)
+    #     f.close()
+    #     url = "https://coronabeds.jantasamvad.org/beds.html"
 
-    # driver = webdriver.Chrome(r"api/selenium/chromedriver")
-    # driver.get(url)
-    # time.sleep(5)
-    # html = driver.page_source
-    # driver.close()
-    # soup = bs(html, 'html.parser')
-    # filename = 'api\\bed_informations\\DelhiData.csv'
-    # f = open(filename, 'w', encoding="utf-8")
-    # csv_writer = csv.writer(f)
+    #     driver = webdriver.Chrome(r"api/selenium/chromedriver")
+    #     driver.get(url)
+    #     time.sleep(5)
+    #     html = driver.page_source
+    #     driver.close()
+    #     soup = bs(html, 'html.parser')
+    #     filename = 'api\\bed_informations\\DelhiData.csv'
+    #     f = open(filename, 'w', encoding="utf-8")
+    #     csv_writer = csv.writer(f)
 
-    # data = []
+    #     data = []
 
-    # table_top = soup.find_all('tr', {"class": "table-success"})
-    # for i in table_top:
-    #     temp = []
-    #     for j in i.find_all('a'):
-    #         temp.append(j.get_text())
-    #     csv_writer.writerow(temp)
+    #     table_top = soup.find_all('tr', {"class": "table-success"})
+    #     for i in table_top:
+    #         temp = []
+    #         for j in i.find_all('a'):
+    #             temp.append(j.get_text())
+    #         csv_writer.writerow(temp)
 
-    # data = []
+    #     data = []
 
-    # table_top = soup.find_all('tr', {"class": "table-warning"})
-    # for i in table_top:
-    #     temp = []
-    #     for j in i.find_all('a'):
-    #         temp.append(j.get_text())
-    #     csv_writer.writerow(temp)
+    #     table_top = soup.find_all('tr', {"class": "table-warning"})
+    #     for i in table_top:
+    #         temp = []
+    #         for j in i.find_all('a'):
+    #             temp.append(j.get_text())
+    #         csv_writer.writerow(temp)
 
-    # data = []
+    #     data = []
 
-    # table_top = soup.find_all('tr', {"class": "table-danger"})
-    # for i in table_top:
-    #     temp = []
-    #     for j in i.find_all('a'):
-    #         temp.append(j.get_text())
-    #     csv_writer.writerow(temp)
+    #     table_top = soup.find_all('tr', {"class": "table-danger"})
+    #     for i in table_top:
+    #         temp = []
+    #         for j in i.find_all('a'):
+    #             temp.append(j.get_text())
+    #         csv_writer.writerow(temp)
 
-    # f.close()
+    #     f.close()
 
     def get(self):
         parser = reqparse.RequestParser()

@@ -24,7 +24,7 @@ const Covid_form = ()=>{
         e.preventDefault();
         const params = inputOptions;
         setInputState({"init":false,"loading":true});
-        axios.get("https://covid-delhi-beds-test.herokuapp.com/test",{params:params})
+        axios.get("http://localhost:5000/test",{params:params})
         .then((data)=>{
             console.log(data.data)
             const confidence = data.data.confidence[0]

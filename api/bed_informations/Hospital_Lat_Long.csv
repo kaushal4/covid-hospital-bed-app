@@ -1,331 +1,386 @@
-,Hospital Name,LATITUDE,LONGITUDE
-0,Chaudhary Eye Centre & Laser Vision,28.642389,77.244012
-1,Delhi Hospital & Temple Nursing Home,28.643444,77.244462
-2,Navjyoti Eye Centre,28.645553000000003,77.240403
-3,Sanjeevan Medical Research Centre (P) Ltd.,28.644121999999996,77.244259
-4,Dr.Shroff'S Charity Eye Hospital,28.646984000000003,77.242285
-5,Thecity Clinic (Unitof Siddharth Medical Services (P) Lt,28.641804999999998,77.234034
-6,Neera Eye Centre & Laser Vision,28.643971,77.241734
-7,Bali Nursing Home,28.651428000000003,77.196887
-8,Geetanjali Medical Centre,28.649394,77.193276
-9,Jeewan Nursing Home & Hospital,28.662274,77.199503
-10,Sir Ganga Ram Kolmet Hospital,28.651729,77.18508299999999
-11,Jeewan Mala Hospital Pvt. Ltd.,28.667169,77.173449
-12,Shree Jeewan Hospital,28.660315999999998,77.196095
-13,BLK Memorial Hospital,28.647059000000002,77.180474
-14,Apollo Spectra Hospitals (Formally Known As Nova Sp,28.658546,77.193586
-15,Bansal Hospital & Research Centre Pvt Ltd,28.659864000000002,77.226917
-16,Nazar Kanwar Surana Hospital,28.675621999999997,77.190475
-17,Centre For Sight (Roopnagar),28.744239,77.293772
-18,Goyal Eye Institute,28.654892999999998,77.161763
-19,Kailash Nursing Home Pvt Ltd,28.654892999999998,77.159188
-20,Nijhara Hospital (P) Ltd,28.649319000000002,77.16931600000001
-21,Vision Eye Centre,28.642295,77.17436
-22,Bharti Eye Foundation,28.654441,77.16141999999999
-23,Rlkc Hospital,28.655337,77.160324
-24,Narang Eye Institute,28.705645,77.190577
-25,Nulife Hospital & Maternity Centre,28.704891999999997,77.20897
-26,Vinayak Hospital,28.706246999999998,77.187487
-27,Hans Charitable Hospital,28.700206,77.20822
-28,Northex Stone Clinic,28.708656,77.18954699999999
-29,Pentamed Hospital,28.707151,77.19195
-30,Jeewan Hospital & Nursing Home Gate No 2,28.580301000000002,77.263018
-31,Jeewan Hospital & Nursing Home Pvt Ltd.,28.580301000000002,77.263018
-32,Handa Nursing Home,28.581959,77.150842
-33,Kalra Hospital Srcnc Pvt Ltd,28.665286,77.14285500000001
-34,Khetrapal Hospital,28.662122999999998,77.138589
-35,New Medical Centre,28.661577,77.14120799999999
-36,Healing Touch Hospital,28.555576000000002,77.207691
-37,Mohinder Hospital,28.559966999999997,77.205474
-38,Adiva Hospital Pvt. Ltd.,28.538687,77.202198
-39,Orthonova Hospital,28.549677000000003,77.19953000000001
-40,Rockland Hospital,28.553164000000002,77.18365899999999
-41,Sitaram Bhartia Institute Of Science 7 Research,28.537857000000002,77.18469300000001
-42,I Care Centre,28.549714,77.19938
-43,Aakash Hospital,28.547735,77.21593100000001
-44,Chikitsa Nursing Home,28.5411,77.204258
-45,Max Smart Super Specialty Hospital (A Unit Of Gujarma,28.529563,77.21302299999999
-46,Max Devki Devi Heart & Vascular Institute-Saket,28.528809000000003,77.209333
-47,Max Medcentre,28.689984999999997,77.358067
-48,Pushpawati Singhania Research Institute,28.533465999999997,77.225536
-49,Sunil Hospital & Nursing Home,28.542608,77.20980300000001
-50,Sawan Neelu Angel'S Nursing Home,28.520175,77.21289499999999
-51,Tirupathi Medical Centre,28.544116,77.203571
-52,Vardaan Hospital,28.550751,77.218678
-53,Vashishta Clinic & Hospital For Orthopaedics,28.537179,77.205683
-54,Navjeewan Nursing Home,28.569747999999997,77.213236
-55,Max Super Speciality Hospital-Saket (West Block),28.533409000000002,77.21
-56,Venu Eye Institute & Research Centre,28.550147999999997,77.220051
-57,Agrawal Eye Institute,28.553164000000002,77.21593100000001
-58,Surya Laxmi Hospital,28.642540000000004,77.070452
-59,Amit Nursing Home,28.641184000000003,77.10955200000001
-60,B.T. Hospital,28.638340000000003,77.105223
-61,Central Hospital,28.636946999999996,77.21734000000001
-62,Jeevan Jyoti Clinic & Nursing Home,28.646909,77.072474
-63,Park Hospital,28.649620000000002,77.08449
-64,Swasthik Hospital,28.717990999999998,77.17959
-65,Tyagi Nursing Home Pvt. Ltd.,28.70685,77.298328
-66,Anand Hospital,28.635759999999998,77.073847
-67,Mangla Aggarwal Medical Centre Pvt Ltd,28.639188,77.089685
-68,Family Hospital (P) Ltd,28.716485,77.098515
-69,Dr.Kapur'S The Healing Touch Eye Centre,28.632540000000002,77.180883
-70,Aastha Hospital,28.643293,77.0814
-71,Shubham Hospital,28.556782000000002,77.25919
-72,Max Healthcare Institute,28.573667999999998,77.26468299999999
-73,Primus Ortho And Spine Hospital,28.597183,77.181993
-74,Dr. Pattnaik'S Laser Eye Institute,28.56662,77.24366500000001
-75,Malhotra Heart Institute,28.565075,77.242703
-76,Moolchand Hospital,28.573065000000003,77.236925
-77,Metro Hospital & Heart Institute,28.568618,77.22820899999999
-78,Escorts Heart Institute & Research Centre Ltd (Fortis),28.57005,77.28705
-79,Lions Kidney Hospital & Urology Research Insitute,28.635892,77.22495699999999
-80,Manav Rakshak Cancer Centre,28.564923999999998,77.274004
-81,Holy Family Hospital,28.563519199999998,77.2866533
-82,Paramtej Sehra Medical & Research Centre,28.667188,77.12196
-83,Maharaja Agrasen Hospital,28.674678000000004,77.13387900000001
-84,M.G.S Hospital,28.674115999999998,77.13449200000001
-85,Kukreja Hospital And Heart Centre Pvt Ltd.,28.652106,77.11654300000001
-86,Sardana Eye Institute,28.650825,77.121912
-87,Khetarpal Nursing Home,28.652332,77.123285
-88,RG Stone Urology & Laparoscopy Hospital,28.649658000000002,77.12127
-89,Centre For Sight (Rajouri),28.656247999999998,77.12053900000001
-90,Behl Hospital,28.629526000000002,77.14120799999999
-91,Centre For Sight,28.567335999999997,77.19160699999999
-92,Sukhmani Hospital,28.567335999999997,77.200533
-93,Aashlok Nursing Home Pvt Ltd,28.573970000000003,77.200876
-94,Jain Charitable Hospital,28.677938,77.26125
-95,Dr.Roshan Lal Hospital,28.676676,77.284438
-96,East Delhi Medical Center,28.677034000000003,77.295875
-97,Shanti Nursing Home,28.683359000000003,77.282587
-98,Dr Gupta Nursing Home,28.676177000000003,77.28654399999999
-99,Sehgal Maternity & Nursing Home,28.728528000000004,77.171986
-100,Tulasi Aushadshala,28.515309999999996,77.1792
-101,Altius Healthcare Pvt Ltd,28.637869,77.086206
-102,Krishna Hospital,28.727926,77.145893
-103,Kuber Hospital,28.714114000000002,77.14659
-104,Shri Balaji Hospital (P) Ltd,28.710463,77.118427
-105,RG Stone Urological Laparoscopy Hospital,28.696987,77.113377
-106,Bajaj Eye Care Centre,28.702634000000003,77.13422
-107,Mahajan Eye Centre,28.707554,77.13472800000001
-108,Navjeewan Medical Centre,28.674775,77.161872
-109,Nayanatara Eye Centre,28.681246999999995,77.164763
-110,Deepan Hospital,28.531713,77.08569399999999
-111,Mangalam Medical & Surgical Centre,28.773367999999998,77.04823499999999
-112,Rao Raghubir Hospital & Maternity Centre,28.663215,77.051794
-113,Satya Bhama Hosptial,28.594658000000003,77.00321
-114,Altius Healthcare Pvt Ltd (Sonia Hospital),28.702032,77.10920899999999
-115,Mansaram Hospital Pvt Ltd,28.653236,77.026322
-116,Orthoplus Hospital,28.723710999999998,77.180912
-117,Kalyani Hospital,28.673118,77.220051
-118,Indraprastha Apollo Hospitals,28.548037,77.283617
-119,Universal Hospital,28.487410200000003,77.3071807
-120,Sarthak Medical Centre,28.554370000000002,77.210438
-121,Divya Prastha Hospital,28.583655,77.08074
-122,Kesar Nursing Home,28.609296,77.100288
-123,Shakuntla Nursing Home & Hospital,28.614966,77.09513299999999
-124,Indian Institute Of Opthalmology (A Division Of Patkal,28.637567999999998,77.01817700000001
-125,Netrayatan,28.535728000000002,77.241952
-126,Shroff Eye Centre,28.560702000000003,77.241045
-127,South Point Hospital,28.553164000000002,77.229715
-128,Sukhda Hospital,28.559797999999997,77.246143
-129,Talwar Medical Centre,28.551353999999996,77.248203
-130,Fortis Hospitals Ltd.(Fortis La Femme (A Unit Of Fortis,28.532655,77.243817
-131,Visitech Hospital (P) Ltd,28.556178999999997,77.238985
-132,Agarwal Medical Centre,28.561003999999997,77.242023
-133,Sehgal'S Nursing Home & Neurological Research Institu,28.553898999999998,77.24261700000001
-134,Vision Care Centre,28.745386,77.091013
-135,Sharma Nursing Home & Hospital,28.564321000000003,77.240358
-136,Apollo Spectra Hospitals (Formally Known As Nova Sp,28.553898999999998,77.242595
-137,National Pediatric Centre & Nads Harsh Hospital,28.717407,77.121381
-138,Sama Nursing Home,28.570653000000004,77.229664
-139,Manav Medicare Centre,28.581507000000002,77.22250600000001
-140,Saraswati Nursing Home,28.562399,77.212447
-141,Nu-Tech Mediworld,28.565225,77.21426600000001
-142,Goyal Hospital & Urology Centre,28.662876,77.282956
-143,Monga Medical Centre,28.647813,77.29426
-144,Shri Ram Singh Hospital & Heart Institute,28.666341,77.287419
-145,Tirupati Stone Centre & Hospital,28.662274,77.298328
-146,Ganesh Ortho Trauma & Medical Centre,28.663930999999998,77.283128
-147,Usha Memorial Orthopaedic Centre,28.785113,77.17335899999999
-148,Surya Hospital,28.66137,77.28168199999999
-149,Ashok Nursing Home,28.775784,77.17169399999999
-150,Khandelwal Hospital & Urology Centre,28.661821999999997,77.28862099999999
-151,Holy Child Nursing Home,28.662575,77.288964
-152,Sunder Lal Jain Charitable Hospital,28.691881,77.181584
-153,Upchaar,28.703838,77.177187
-154,Centre For Sight-Ashok Vihar,28.693639,77.175901
-155,Prashanti Nursing Home,28.614062,77.03951500000001
-156,Shivam Nursing Home,28.677034000000003,77.266648
-157,Panchsheel Hospital Private Limited,28.711668,77.262331
-158,Mohan Nursing Home & Hospitals,28.703838,77.279351
-159,St Stephens Hospital,28.6686,77.214978
-160,Tirath Ram Shah Charitable Hospital,28.67357,77.217381
-161,Sant Parmandand Hospital,28.68607,77.224222
-162,Sanjeevan Medical Centre,28.646796000000002,77.215727
-163,Delhi Heart And Lung Institute,28.643067,77.204777
-164,Medfirst Health Care Pvt Ltd,28.574572999999997,77.18783
-165,Amar Leela Hospital (P) Ltd,28.640883000000002,77.08998299999999
-166,Hemraj Jain Hospital & Maternity Home,28.631465999999996,77.08676
-167,J.K.Hospital,28.635685,77.08882
-168,Janak Nursing Home,28.626419,77.087923
-169,Kartik Nursing Home And Urology Centre,28.568844,77.36561999999999
-170,Khanna Nursing Home,28.630072,77.079514
-171,Lamba Hospital & Nursing Home,28.637567999999998,77.08037
-172,Lok Clinic,28.627021000000003,77.071444
-173,Mata Chanan Devi Hospital,28.626116999999997,77.078653
-174,Orchid Hospital & Heart Centre,28.620843,77.09783900000001
-175,Sharma Nursing Home,28.611915000000003,77.093418
-176,Arya Hospital,28.617659999999997,77.07941
-177,J.M.S.Batra Hospital,28.641485,77.091013
-178,Genesis Hospital Pvt Ltd,28.627322999999997,77.0814
-179,Khanna Hospital,28.610746999999996,77.058423
-180,Gandhi Nursing Home(A Unit  Of Pawan Gandhi Health,28.632144,77.051823
-181,Bm Gupta Hospital Private Limited,28.619807,77.061428
-182,Jeevan Jyoti Hospital,28.606226,77.064959
-183,Mahindru Hospital,28.636363,77.066242
-184,Mahajan Hospital (A Unit of R. Mahajan Hospitals Pvt. L,28.634555,77.058689
-185,R. Nayyar Hospital,28.632747,77.066637
-186,Popli Hospital,28.621596999999998,77.07728
-187,Bhagat Hospital,28.609428,77.106078
-188,Mata Roop Rani Maggo & Mahindru Hospital,28.633048,77.050158
-189,Gautam Nursing Home & Maternity Centre,28.618583,77.068957
-190,Mata Chandna Devi Hospital,28.626121,77.045022
-191,Suman Super Speciality Hospital,28.610671999999997,77.065903
-192,Ch. Chhaju Ram Hospital (Aunit Of Holy Touch Healthc,28.638849,77.099601
-193,Mohan Eye Institute,28.640279999999997,77.19035799999999
-194,Batra Hospital,28.516403999999998,77.260531
-195,Dr. Sunder Lal Memorial Hospital,28.506674,77.23160899999999
-196,A-One Hospital Pvt Ltd,28.678596999999996,77.105524
-197,Sehgal Nursing Home,28.667094,77.08861
-198,Sri Balaji Action Medical Institute,28.674284999999998,77.11069499999999
-199,Gupta Medical Centre,28.662876,77.294895
-200,Chaddha Children Hospital & Nursing Home,28.679444,77.085176
-201,Daya Hospital,28.67854,77.111269
-202,Action Cancer Hospital,28.674926,77.097879
-203,Lotus Hospital,28.627623999999997,77.110842
-204,Eden Hospital (P) Ltd,28.560212,77.256711
-205,National Heart Institute,28.564621999999996,77.244478
-206,RG Stone Urological & Laparoscopy Hospital,28.561607000000002,77.242762
-207,Paras Spring Meadows Hospital (Paras Bliss Hospital),28.558365000000002,77.243573
-208,Bansal Hospital(A Unit Of Namedi Hospitalpvt Ltd),28.572461999999998,77.269541
-209,Vimhans(Vidyasagar Institute Of Mental Health Neuro A,28.672817,77.17135
-210,Saraswati Nursing Home,28.557121999999996,77.25383599999999
-211,Indian Spinal Injury Centre,28.533051,77.141766
-212,Fortis Flt.Lt.Rajan Dhall Hospital,28.520004999999998,77.160133
-213,Ayushman Hospital,28.610445000000002,77.048389
-214,Dr.Nandas Eye Care Centre,28.577889000000003,77.072474
-215,Venkateshwar Hosptial,28.5882472,77.06457940000001
-216,Ayushman Hospital & Health Services,28.580065299999998,77.0597535
-217,Bhagwati Hospital,28.726421000000002,77.131525
-218,Bhagwan Mahavir Hospital,28.713775,77.131525
-219,Fami Care Nursing Home,28.70907,77.116764
-220,Family Hospital Pvt. Ltd.,28.705457,77.09535
-221,Jaipur Golden Hospital,28.698154,77.109987
-222,Saroj Hospital And Heart Institute,28.710162,77.128461
-223,Satyam Hospital Pvt. Ltd.,28.75562,77.09439499999999
-224,Spring Dales Medical Centre,28.725518,77.13422
-225,Avanitka Hospital,28.698023,77.10176899999999
-226,Santom Hospital,28.7207,77.138735
-227,Drs Northex Eye Institute Pvt Ltd,28.709033,77.116979
-228,Vision Eye Hospital,28.721303000000002,77.116419
-229,Sunrise Hospital,28.488004999999998,76.960396
-230,Centre For Sight (Rohini),28.698794,77.115587
-231,Rajiv Gandhi Cancer Institute,28.714401000000002,77.115187
-232,Brahm Shakti Hospital,28.720097999999997,77.07728
-233,Bhatia Global Hospital & Endosurgery Institute,28.666415999999998,77.08225999999999
-234,Kantoor Maternity & Medical Centre,28.664571000000002,77.089538
-235,Kalawati Kaustubh Hospital (P) Ltd,28.680196999999996,77.083487
-236,Shri Jiyalal Hospital & Maternity Centre,28.679387,77.094838
-237,Sodhi Nursing Home & Ent Hospital,28.677335,77.08758
-238,Kamlesh Medical Centre,28.679745,77.090326
-239,Jain Child & Maternity Hospital Pvt Ltd,28.725518,77.147266
-240,Lata Hospital,28.711969,77.162081
-241,Navjeevan Hospital,28.694901,77.108937
-242,Kesar Hospital,28.713625,77.163113
-243,Rashmi Hospital,28.69055,77.131012
-244,Fortis Hospitals Ltd.(Fortis Hospital Management Ltd),28.626419,77.37082099999999
-245,Max Super Speciality Hospital-Shalimar Bagh,28.727755,77.15265699999999
-246,Jeevan Anmol Hospital,28.609240000000003,77.293256
-247,Bimla Devi Hospital,28.654441,77.305092
-248,Kukreja Hospital,28.672215,77.126463
-249,Sharp Sight Centre (East),28.643594,77.292569
-250,Metro Hospital & Cancer Institute(A Unit Of Metro Med,28.527226000000002,77.076542
-251,Garg Hospital,28.65414,77.294949
-252,Jain Hospital (A Unit Of Jain Nero Ivf Pvt Ltd),28.574609999999996,77.217104
-253,Mahesh Hospital,28.628453000000004,77.308038
-254,Makkar Medical Centre,28.632295000000003,77.277291
-255,Malik Radix Health Care,28.640732,77.287419
-256,"Max Super Speciality Hospital, Patparganj (Balaji Medic",28.636363,77.309392
-257,Mmr Eye Institute,28.644197,77.28930799999999
-258,Patel Hospital,28.632747,77.28125899999999
-259,Pushpanjali Medical Centre,28.650222999999997,77.337467
-260,Ram Lal Kundan Lal Orthopadic Hospital,28.618432000000002,77.282956
-261,Shanti Mukand Hospital,28.650825,77.301324
-262,Swastik Medical Centre,28.66137,77.313486
-263,Taneja Hospital (Managed & Operated By Altius Healthc,28.641033,77.29205400000001
-264,Narula Medicare Centre,28.635759999999998,77.28862099999999
-265,Silver Line Nursing Home,28.628377,77.299092
-266,Smh-Curie Cancer Hospital,28.649771,77.302182
-267,Shreya Eye Centre,28.664533000000002,77.30681700000001
-268,R.S.Grover Memorial Hospital,28.661934999999996,77.23723100000001
-269,Apex Citi Hospital (A Unit Of Siddhartha Healthcare Pvt,28.624874,77.294262
-270,Kosmos Superspeciality Hospital,28.654859000000002,77.310553
-271,K K Surgical & Maternity Center,28.686371,77.29117
-272,Dr.Sushma Jindal Hospital,28.684075,77.31936800000001
-273,Jeevan Jyoti Clinic & Hospital,28.691792,77.318979
-274,J.P.Memorial Hospital,28.686615999999997,77.327375
-275,Gupta Multispeciality Hospital,28.668449,77.319797
-276,Karuna Hospital,28.689051,77.323175
-277,Dharmashila Cancer Hospital & Research Centre,28.769465000000004,77.156193
-278,Malik Nursing Home,28.628528000000003,76.985218
-279,Gautam Hospital,28.717388,77.135302
-280,Jiwan Nursing Home,28.510935999999997,77.001595
-281,Ravindra Hospital & Heart Centre,29.131433,75.74467800000001
-282,Gaba Hospital,30.148690000000002,77.29000699999999
-283,Irene Hospital (Nirmaya Hospital (A Unit Of Delphi Hea,28.544719,77.25873100000001
-284,Bimal Hospital,28.698418,77.065556
-285,Hope Oncology Clinic,28.552557500000002,77.2089027
-286,Foresight Eye Clinic,28.5371402,77.2165596
-287,Birth Right (Rainbow Childern's Medicare Pvt Ltd),28.5335197,77.2108857
-288,Madhukar Rainbow Children’s Hospital,28.5292685,77.20480390000002
-289,Ravi Eye Foundation,28.634432,77.0870943
-290,Shri Daya Dutt Vashist Hospital,28.642505,77.0965588
-291,Center For Sight- Vikaspuri,28.6436749,77.079261
-292,Kalindi Hospital (A Unit Of Ivory Healthcare Pvt Ltd),28.555531300000002,77.2958239
-293,Joy Nursing Home,28.649017999999998,77.12110200000001
-294,Nirmal Hospital,28.822200399999996,77.1718134
-295,Maharaja Agrasain Multispeciality Hospital,0.0,0.0
-296,Dr. Reena Janana & Surgical Hospital,28.834898,77.0898784
-297,Ardent Ganpati Hospital,28.6820886,77.03862190000001
-298,Vikas Hospital Pvt Ltd,28.611036,76.980917
-299,Irene Swasthik Hospital,28.609278999999997,77.185514
-300,Pearl Hosptial,28.6059771,76.99120409999999
-301,Bhagat Chandra Hospital (A Unit Of Bhagat Hospitals (P,28.593185,77.081144
-302,Fortis C-Doc Health Care Ltd.,28.546515000000003,77.248355
-303,Isis Hospital Pvt Ltd,28.549945299999997,77.231741
-304,Medfort Hospital,28.631240000000002,77.080421
-305,Dashmesh Hospital,28.630396,77.09885
-306,Rescue Hospital India Pvt Ltd,28.597692,77.06248000000001
-307,PGH Hospital Pvt Ltd,28.6316295,77.05716590000002
-308,Rotary Eye Care Centre,28.512905,77.242089
-309,Eye 7 Hospital Pvt Ltd,28.647813,77.189757
-310,Sunrise Hospital(A Unit Of Trinity Sunrise Healthcare P,28.577004,77.265937
-311,Nestiva Hospital,28.556007,77.17418599999999
-312,Institute Of Liver And Biliary Sciences (ILBS),28.506259999999997,77.1628623
-313,Devki Indravati Hospital,28.581776,77.0132287
-314,Yogmaya Multispeciality Hospital,28.49424,77.183304
-315,Life Line Hospital,28.621897999999998,77.047703
-316,Eye Sight Laser Centre,28.591246999999996,77.057512
-317,Artemis Hospital,28.56888,77.062045
-318,Shree Hospital,28.598141499999997,77.04125069999999
-319,Savitri Hospital,28.735325,77.0105298
-320,Chinmaya Vision,28.670107,77.092502
-321,Eye Q Vision Pvt Ltd,28.716413399999997,77.15458459999999
-322,Samyak Hospital,28.716413399999997,77.15458459999999
-323,Nirvana Hospital,28.731163199999997,77.1332781
-324,Virmani Hospital Pvt Ltd,28.619564,77.301241
-325,RG Stone Urology & Laparoscopy Hospital,28.653537,77.295633
-326,Centre For Sight (Preet Vihar),28.642521000000002,77.296111
-327,Nephroplus Dialysis Center,28.636736,77.274807
-328,C.M Patel Hosptial,28.7042727,77.3002127
-329,Centre For Sight-Dwarka,28.596434000000002,77.040834
+Hospital Name,Latitude,Longitude
+ Safdarjung Hospital,28.568,77.2058
+,,
+ LHMC,28.6341,77.2129
+,,
+ AIIMS Main Delhi,28.568,77.21
+,,
+ Satyawati Harishchand Hsopital,28.8406,77.1033
+,,
+ GURU NANAK EYE CENTRE ( ANNEXED TO LOK NAYAK HOSPITAL),28.6379,77.2324
+,,
+ Acharyashree Bhikshu Govt. Hospital,28.6621,77.1403
+,,
+" HAHC Hospital, Hamdard Nagar",28.5149,77.2521
+,,
+" St. Stephens Hospital, Tis Hazari",28.6668,77.2146
+,,
+" BLK Hospital, Pusa Road",28.6433,77.1797
+,,
+" Dharamshila Narayana Hosp., Vasundhra Enclave",28.6025,77.3141
+,,
+" Bhagwati Hospital, Rohini",28.7191,77.1295
+,,
+ Lok Nayak Hospital,28.6383,77.2386
+,,
+ GTB Hospital,28.684,77.3094
+,,
+ Base Hospital Delhi Cantt,28.6076,77.1367
+,,
+ Sardar Patel Covid hospital (DRDO),28.5685,77.128
+,,
+ Deen Dayal Upadhyay hospital,28.6281,77.1123
+,,
+ Dr Baba Saheb Ambedkar Hospital,28.7144,77.1132
+,,
+ Burari Hospital,28.7611,77.1899
+,,
+ Rajeev Gandhi Super Speciality Hospital,28.6892,77.3165
+,,
+ Ram Manohar Lohia Hospital,28.6258,77.2027
+,,
+ Ambedkar Nagar hospital,28.5221,77.2385
+,,
+" AIIMS, Trauma Delhi",28.5682,77.2007
+,,
+ ESIC hospital Okhla,28.5153,77.2825
+,,
+ Deep Chand Bandhu,28.6814,77.1779
+,,
+ Northern Railway,28.6365,77.2175
+,,
+ Sanjay Gandhi Memorial Hospital,28.6925,77.0884
+,,
+ Rajan Babu Institute of Pulmonary  Medicine and tuberculosis,28.7002,77.2046
+,,
+ National Institute of TB and Respiratory Diseases (LRS TB),,
+,,
+ ESIC Hospital Jhilmil,28.6665,77.3113
+,,
+" MAX SS HOSPITAL, PATPARGANJ",28.6329,77.309
+,,
+ Max East/West Block,,
+,,
+" Maharaja Agrasen Hospital, Punjabi Bagh",28.674,77.1342
+,,
+" Max Smart Gujarmal Modi hospital ,Saket",28.5279,77.2137
+,,
+" Fortis Hospital, Shalimar Bagh",28.7096,77.1699
+,,
+" Mata Chanan Devi Hospital, Janakpuri",28.6188,77.0783
+,,
+" Pushpawati Singhania Hospital, Saket",28.5331,77.2254
+,,
+" Metro Hospital, Preet Vihar",28.6385,77.2948
+,,
+" Park Hospital, Meera Bagh",28.6518,77.0932
+,,
+" Kukreja Hospital and Heart Centre, Rajouri Garden",28.6468,77.1171
+,,
+ Sir Ganga Ram City Hospital,28.6385,77.1896
+,,
+" NKS Hospital, Gulabi Bagh",,
+,,
+" Rathi Hospital, Najafgarh",28.6516,77.0316
+,,
+" Sant Parmanand Hospital, Civil Lines",28.6777,77.2241
+,,
+" Tarak Hospital, Uttam Nagar",28.6193,77.03
+,,
+" Madhukar Rainbow Children Hosp., Malviya Nagar",28.5293,77.2046
+,,
+" Jeevan Anmol Hospital, Mayur Vihar Phase-I",28.6057,77.2954
+,,
+" Medeor Hospital, Qutab Instl. Area",28.6057,77.2954
+,,
+" Shri Ram Singh Hospital, Krishna Nagar",28.6606,77.2876
+,,
+ World Brain Center Hospital,28.6122,77.0886
+,,
+ Makkar Multispeciality Hospital,28.6411,77.2826
+,,
+" PGH Hospital, Vikas Nagar",28.6361,77.049
+,,
+" Bansal Global Hospital, Jahangirpuri",28.7273,77.1624
+,,
+" Konark Hospital, Nangloi",28.6774,77.0639
+,,
+" Jain Hospital, Vikas Marg Extn.",28.6533,77.3088
+,,
+" Mansaram Hospital, Nangloi",28.6723,77.0589
+,,
+ Ardent Ganpati,28.682,77.0309
+,,
+" Ansari Hospital, Sagarpur",28.6027,77.1048
+,,
+" Bensups Hospital, Dwarka",28.5929,77.0445
+,,
+ BH SALVAS HOSPITAL,28.6265,76.9685
+,,
+" CD Global Hospital, Najafgarh Road",28.6825,77.039
+,,
+ K K Surgical & Maternity Centre,28.693,77.292
+,,
+" Kapil Multispecialty Hospital, Nathupura",28.7676,77.1817
+,,
+" Lalita Hospital, Begumpur",28.7307,77.0635
+,,
+" Sanjeevan Medical Res. , Daryaganj",,
+,,
+ SURYA KIRAN HOSPITAL,28.6138,76.9923
+,,
+ Tulsi Multispeciality Hospital & Critical Care Unit,28.6882,77.2917
+,,
+" Vikas Hospital, Najafgarh",28.6107,76.9809
+,,
+" IBS Hospital, Lajpat Nagar",28.5656,77.2443
+,,
+" Jeewan Nursing Home, Pusa Road",28.6436,77.1881
+,,
+" Bhatia Global Hospital, Paschim Vihar",28.6656,77.0824
+,,
+" Dr. Chaudhary Moral Hospital, Yamuna Vihar",28.7023,77.2724
+,,
+" Garg Hospital, Karkardooma",28.6529, 77.3023.
+,,
+" SMS Hospital, Gagan Vihar",28.6456,77.2971
+,,
+ Divine Multispeciality Hospital and Cancer Centre,28.7289,77.2202
+,,
+" Maharaja Agarsain Multispecialty Hospital, Narela",28.8349,77.0899
+,,
+" Panchsheel Hospital, Yamuna Vihar",28.7017,77.2797
+,,
+ SAMA HOSPITAL,28.6799,77.0808
+,,
+ Highland Care Multispeciality Hospital,28.5895,77.0768
+,,
+" Jeewan Moti Khera Hospital, Nangloi",,
+,,
+" Kalra Hospital, Dwarka",,
+,,
+ Khandelwal Hospital And Urology Center,28.6604,77.2878
+,,
+" Universal Centre of Health services, Kalkaji",28.6448,77.2167
+,,
+ Bimla Devi Hospital,28.6203,77.3031
+,,
+" Kukreja Hospital, Mayur Vihar",28.6093,77.2949
+,,
+ SINGHAL HOSPITAL,28.5883,77.0888
+,,
+" Kosmos Super Specialty Hospital, Vikas Marg Extn.",28.6549,77.3106
+,,
+ CBR Hospital,28.4746,77.1301
+,,
+ ROSEWOOD HOSPITAL,28.6102,76.9926
+,,
+ Sai Charitable Dispensary,28.5294,77.2542
+,,
+" Goyal Hospital, Paschim Vihar",28.6616,77.0853
+,,
+ RS Grover Memorial Hospital,28.6426,77.2774
+,,
+ Apollo Spectra Hospitals ( Unit of Apollo Specialty Hospitals PVT.LTD,28.5448,77.2479
+,,
+ Nestiva Hospital,28.5532,77.1745
+,,
+ Nidaan Hospital,28.4992,77.2282
+,,
+ Shree Hospital,28.5981,77.0411
+,,
+ Singhal Medical  Centre,28.661,77.2819
+,,
+ Parmeshwari Devi Hospital,28.5268,77.1524
+,,
+ SATYA MULTISPECIALITY HOSPITAL,28.6268,77.0394
+,,
+ Asian Multispeciality Hospital,28.7018,77.2787
+,,
+ C M PATEL HOSPITAL,28.6894,77.2891
+,,
+ Dr Rakesh Multispeciality Hospital,28.8402,77.0824
+,,
+ Hardik Hospital,28.6367,77.0532
+,,
+ Hira’s Multispeciality Hospital,28.6203,77.3031
+,,
+ Pt.RRM Hospital,28.6532,77.3086
+,,
+ RAM LAL KUNDAN LAL ORTHOPAEDIC HOSPITAL,,
+,,
+ Sant Soham Hospital,,
+,,
+ Delhi global hospital,28.7449,77.1431
+,,
+ Sunrise Hospital,28.5771,77.2659
+,,
+ HANDA NURSING HOME,28.6513,77.1259
+,,
+ Life RAYS HOSPITAL,,
+,,
+ Delhi multi speciality hospital,28.7118,77.0948
+,,
+ Angel Agasta Multispeciality Hospital,28.565,77.21
+,,
+ Patel Hospital,28.6894,77.2891
+,,
+ CAREWELL MEDICAL CENTRE,28.5337,77.2543
+,,
+ Ekansh Hospital,28.5331,77.1422
+,,
+ AIIMS Jhajjar,28.6176,76.6875
+,,
+ Bara Hindurao Hospital,28.6755,77.2108
+,,
+ Swami Dayanand,28.6784,77.3031
+,,
+ Janakpuri Super Speciality Hospital Society,28.6213,77.0898
+,,
+ Sir Ganga Ram Hospital,28.6385,77.1896
+,,
+" INDRAPRASTHA APOLLO HOSPITAL, SARITA VIHAR",28.5404,77.283
+,,
+" Holy Family Hospital, Okhla",28.5618,77.2751
+,,
+" Max SS Hospital, Shalimar Bagh",28.7277,77.1526
+,,
+" Akash Healthcare, Dwarka",28.6053,77.0534
+,,
+ Batra Hospital,28.5131,77.2458
+,,
+" Sri Balaji Action Medical Inst., Paschim Vihar",28.6738,77.1103
+,,
+" Venkateshwar Hospital, Dwarka",28.5889,77.0375
+,,
+" MANIPAL HOSPITAL, DWARKA",28.5953,77.0694
+,,
+" Rajiv Gandhi Cancer Institute & RC, Rohini*",28.7167,77.1114
+,,
+" Jaipur Golden Hospital, Rohini",28.6976,77.1096
+,,
+" Shree Agarsain International Hospital, Rohini- 22",28.5981,77.0411
+,,
+ VIMHANS,28.5693,77.2511
+,,
+" Indian spinal injury centre,Vasant Kunj",28.5331,77.1422
+,,
+ Saroj Super Speciality Hospital,28.7061,77.1291
+,,
+" Tirath Ram Shah Charitable Hospital, Civil Lines",28.671,77.2172
+,,
+ Maha Durga Charitable Trust Hospital,,
+,,
+" Mool Chand Khairati Ram Hospital, Lajpat Nagar",,
+,,
+" Ayushman Hospital, Dwarka",28.5881,77.0596
+,,
+" Shanti Mukand Hospital, Vikas Marg Extn.",28.6508,77.3013
+,,
+" Fortis Escorts Heart Institute, Okhla",28.5607,77.2739
+,,
+" Primus Super Specialty Hospital, Chanakyapuri",28.5929,77.1812
+,,
+" Fortis SS Hospital, Vasant Kunj",28.4568,77.0725
+,,
+" Santom Hospital, Prashant Vihar",28.714,77.1384
+,,
+" National Heart Institute, East of Kailash",28.5575,77.2457
+,,
+" Gandhi Nursing Home, Uttam Nagar",28.6197,77.054
+,,
+" Kalra Hospital, Kirti Nagar",28.6552,77.1386
+,,
+" Divya Prastha Hospital, RZ-37, Opposite Bagh Wala School, Main Road, Palam Colony, New Delhi 45",28.5862,77.0876
+,,
+" Navjeevan Hospital, Pitampura",28.6949,77.1088
+,,
+" MGS Hospital, Punjabi Bagh",28.6739,77.1347
+,,
+" Bhagat Chandra Hospital, Mahavir Enclave, Dwarka",28.5935,77.0812
+,,
+" Sehgal Neo Hospital, Paschim Vihar",28.6581,77.0914
+,,
+" Brahm Shakti Hospital, Budh Vihar",28.7124,77.0812
+,,
+" Mata Roop Rani Maggo Hospital, Uttam Nagar",28.6211,77.0503
+,,
+" Delhi Heart & Lung Institute, Pachkuian Road",28.6416,77.2054
+,,
+" B.M. Gupta Hospital, Uttam Nagar",28.6195,77.0614
+,,
+" Goyal Hospital & Urology Centre, Krishna Nagar",28.6609,77.2825
+,,
+" RLKC Metro Hospital, Naraina",28.6512,77.1548
+,,
+" Cygnus Sonia Hospital, Nangloi",28.6825,77.0524
+,,
+" Cygnus MLS, Rama Vihar",28.7267,77.0517
+,,
+" Jeewan Mala Hospital, Rohtak Road",28.658,77.1943
+,,
+" Gupta Multispecialty Hospital, Vivek Vihar",28.6684 N,77.3198
+,,
+ Sushila Hospial,28.8596,77.0838
+,,
+" Maharaja Agrasen Hospital, Dwarka",28.5934,77.0785
+,,
+ Malik Radix Hospital,28.6133,77.0286
+,,
+" Satyabhama Hospital, Nangloi",28.677,77.0634
+,,
+ AASTHA HOSPITAL,28.6359,77.0814
+,,
+ Alshifa Hospital,28.5571,77.293
+,,
+" Bansal Hospital & Research Centre, New Friends Colony",28.5637,77.2716
+,,
+" Bhagwan Mahavir Hospital, Madhuban Chowk",28.6882,77.118
+,,
+ East Delhi Medical Centre Mansarover Park,28.6761,77.2966
+,,
+ Oncoplus Hospital,28.5732,77.2286
+,,
+" Surya Hospital, Krishna Nagar",28.6629,77.2859
+,,
+ Rescue Hospital,28.6062,77.0532
+,,
+" Irene Hospital, Kalkaji",28.5447,77.2582
+,,
+ Kalyani Hospital,28.6132,76.9876
+,,
+" Pushpanjali Medical Centre, Pushpanjali Enclave, Vikas Marg Ext.",28.654,77.3091
+,,
+" Metro Hospital, Lajpat Nagar",28.5647,77.2438
+,,
+" Sitaram Bhartia Institute of Science & Res., Qutab Institutional Area",28.5379,77.1847
+,,
+" Medstar Hospital, Paschim Vihar",28.6589,77.0908
+,,
+" Samar Hospital, Dwarka",28.582,77.0151
+,,
+" Shakuntala Nursing Home, West Sagarpur",28.6791,77.0697
+,,
+" Apex City Hospital, West Vinod Nagar",28.6266,77.302
+,,
+" Revive Hospital,tilak nagar",28.6393,77.1015
+,,
+ Royal Kalindi Hospital,28.5407,77.2959
+,,
+ Savitri Hospital,28.7353,77.0127
+,,
+ Arya Hospital,28.6172,77.0795
+,,
+" Dharamvir Solanki Hospital, Rohini",28.715,77.058
+,,
+ Nirmala Hospital,28.6313,77.0015
+,,
+" Ishan Hospital, Rohini",28.7335,77.1397
+,,
+ Cronus Multi speciality Hospital,28.5016,77.1859
+,,
+ SCI International Hospital,28.5497,77.2339
+,,
+ Triton Hospital,28.5473,77.2548
+,,
+ Shrine Hospital,28.7446,77.1195

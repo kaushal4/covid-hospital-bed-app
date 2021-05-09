@@ -12,7 +12,7 @@ const Bed = ()=>{
     const [isInputInvalid,setInputInvalid] = useState(false);
     useEffect(()=>{
         console.log("here");
-        axios.get("https://covid-delhi-beds-test.herokuapp.com/bed",{params:{"top":"false","count":"true"}})
+        axios.get("http://localhost:5000/bed",{params:{"top":"false","count":"true"}})
         .then((data) =>{setInitialTables({...initialTables,"firstTable":data.data.final_array});
         })
         
@@ -21,7 +21,7 @@ const Bed = ()=>{
         if(initialTables.secondTable.length === 0 && !secondTablesLoaded){
             console.log("here");
             setFirstTablesLoaded(true);
-            axios.get("https://covid-delhi-beds-test.herokuapp.com/bed",{params:{"top":"true","count":"false"}})
+            axios.get("http://localhost:5000/bed",{params:{"top":"true","count":"false"}})
             .then(data =>{setInitialTables({...initialTables,"secondTable":data.data.final_array})})
         }else if(!secondTablesLoaded){
             console.log(initialTables.secondTable);
@@ -43,7 +43,8 @@ const Bed = ()=>{
             if(data.data.results[0].geometry.lat===28.65381 && data.data.results[0].geometry.lng===77.22897){
                 setInputInvalid(true);
             }else{
-                //api call here
+                axios.get("http://localhost:5000/distance",{params:{"lat":data.data.results[0].geometry.lat,"lan":data.data.results[0].geometry.lng}})
+                .then(data=>{console.log(data)})
             }
         });
 
