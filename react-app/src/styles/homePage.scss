@@ -1,9 +1,12 @@
 .home {
+  //transform: translateY(-50%);
+  position: relative;
+  width: 100%;
   &::after {
     content: "";
-    background-image: url("../images/medical-sign.png");
-    background-size: 20%;
+    background-image: url("../images/doc-2.png");
     background-position: center;
+    background-size: 30%;
     background-repeat: no-repeat;
     opacity: 0.2;
     top: 0;
@@ -19,7 +22,7 @@
     margin: 0.5em auto;
   }
   display: flex;
-  margin: 4% 10%;
+  padding: 15vh 0;
 
   h3 {
     text-align: center;
@@ -62,9 +65,11 @@
     }
   }
   @media screen and (max-width: 1100px) {
-    margin: 4% 1%;
+    padding: 15vh 0;
   }
   @media screen and (max-width: 900px) {
+    position: relative;
+    transform: translateY(0);
     &::after {
       background-size: cover;
     }
@@ -98,4 +103,7 @@
   100% {
     fill: red;
   }
+}
+.home-container {
+  min-height: 100vh;
 }

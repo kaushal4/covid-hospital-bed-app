@@ -1,3 +1,4 @@
+
 from flask_restful import Api, Resource, reqparse
 import sklearn
 import pickle
@@ -7,7 +8,7 @@ import numpy as np
 class covid_test(Resource):
     def __init__(self):
         self.model = pickle.load(
-            open("api\\models\\finalized_model.sav", 'rb'))
+            open("api\\models\\finalized_model_SVM.sav", 'rb'))
 
     def get(self):
         parser = reqparse.RequestParser()
@@ -33,9 +34,29 @@ class covid_test(Resource):
         parser.add_argument('diabetes', type=int,
                             help='bad input:{error_msg}', choices=(0, 1))
         args = parser.parse_args()
-        print(args)
 
+        final_arr = []
+        for x, y in args.items():
+            if(x == 'age'):
+                final_arr.append((y/100))
+            elif(x == 'temprature'):
+                final_arr.append((y/42))
+            elif(x == 'sex'):
+                if(y == 0):
+                    final_arr.append(1)
+                    final_arr.append(0)
+                else:
+                    final_arr.append(0)
+                    final_arr.append(1)
+            else:
+                final_arr.append(y)
+        print(final_arr)
+        prediction = self.model.predict([final_arr])
+        confidence = self.model.predict_proba([final_arr])
+        prediction = prediction.tolist()
+        confidence = confidence.tolist()
         return {
             'resultStatus': 'fine',
-            'message': "Hello Api Handler",
+            'prediction': prediction,
+            'confidence': confidence,
         }
